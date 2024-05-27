@@ -5,7 +5,7 @@ import Title from "./title";
 function contact() {
   return (
     <Card>
-      <Title textNoColor="AAA" textColor="haha" />
+      <Title textNoColor="Me" textColor="Contacter" />
     </Card>
   );
 }

@@ -1,4 +1,4 @@
-import { BriefcaseBusiness, Send } from "lucide-react";
+import { CheckCheck, Send } from "lucide-react";
 import React from "react";
 import Button from "./button";
 import Card from "./card";
@@ -9,14 +9,14 @@ function Hero() {
     <Card>
       <div className="flex">
         <div className="flex w-1/2 flex-col gap-8 p-5">
-          <h1 className="text-4xl font-bold">
-            Portfolio <span className="block text-themeColor">Maxime Turquet</span>
+          <h1 className="text-4xl">
+            Portfolio <span className="block font-bold text-themeColor">Maxime Turquet</span>
           </h1>
           <p className="text-lg">
-            Je suis <span className="font-bold">développeur Front-End</span> et je suis à la recherche de nouvelles expériences.
+            <span className="font-bold">Développeur Front-End</span> à la recherche de nouvelles expériences.
           </p>
           <div className="flex gap-2">
-            <BriefcaseBusiness className="text-themeColor" /> Alternance
+            <CheckCheck className="text-themeColor" /> Alternance
           </div>
           <Button>
             <Send className="mr-1 inline size-5" /> Me Contacter

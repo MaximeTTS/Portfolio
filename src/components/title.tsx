@@ -7,8 +7,8 @@ interface Props {
 
 function title({ textColor, textNoColor }: Props) {
   return (
-    <h2 className="text-3xl font-bold">
-      {textNoColor} <span className="text-themeColor">{textColor}</span>
+    <h2 className="text-4xl">
+      {textNoColor} <span className="font-bold text-themeColor">{textColor}</span>
     </h2>
   );
 }
