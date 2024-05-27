@@ -5,25 +5,25 @@ interface Props {
   title: string;
   text: string;
   Icon: IconType;
-  iconClass: string;
   span: string;
-  spanClass: string;
-  textClass: string;
+  className?: string;
 }
 
-function cardService({ title, text, Icon, iconClass, span, spanClass, textClass }: Props) {
+function CardService({ title, text, Icon, span, className }: Props) {
   return (
-    <div className="card-service">
-      <div className="header">
-        <span className={spanClass}>{span}</span>
-        <Icon className={iconClass} />
+    <div
+      className={`group flex flex-col gap-4 rounded-2xl border-greyBlack200 border p-8 w-406px transition duration-300 ease-in-out ${className}`}
+    >
+      <div className="flex items-start justify-between">
+        <span className="text-7xl font-bold text-transparent text-black-stroke">{span}</span>
+        <Icon className="text-3xl transition-colors duration-300 ease-in-out group-hover:text-themeColor" />
       </div>
-      <div className={textClass}>
-        <h3>{title}</h3>
+      <div className="flex flex-col gap-2">
+        <h3 className="text-2xl font-bold">{title}</h3>
         <p>{text}</p>
       </div>
     </div>
   );
 }
 
-export default cardService;
+export default CardService;

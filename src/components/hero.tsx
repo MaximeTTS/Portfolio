@@ -16,7 +16,7 @@ function Hero() {
             <span className="font-bold">Développeur Front-End</span> à la recherche de nouvelles expériences.
           </p>
           <div className="flex gap-2">
-            <CheckCheck className="text-themeColor" /> Alternance
+            <CheckCheck className="text-themeColor" /> Disponible pour une Alternance
           </div>
           <Button>
             <Send className="mr-1 inline size-5" /> Me Contacter
