@@ -1,7 +1,6 @@
 import React from "react";
 import Card from "./card";
 import Title from "./title";
-import Image from "next/image";
 import AvantageIcon from "./avantageIcon";
 
 function avantage() {

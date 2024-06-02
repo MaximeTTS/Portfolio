@@ -30,10 +30,19 @@ const config: Config = {
       width: {
         "406px": "406px",
       },
+      gridTemplateAreas: {
+        "custom-layout": ["one one one one", "two two three three", "four four four four"],
+      },
+      gridArea: {
+        one: "one",
+        two: "two",
+        three: "three",
+        four: "four",
+      },
     },
   },
   plugins: [
-    plugin(function ({ addUtilities, e }) {
+    plugin(function ({ addUtilities }) {
       const newUtilities = {
         ".text-stroke": {
           "-webkit-text-stroke": "1px black",
@@ -45,6 +54,26 @@ const config: Config = {
         ".text-black-stroke": {
           "-webkit-text-stroke": "2px #00bc91",
           "text-stroke": "1px #000",
+        },
+        // Custom utilities for grid-template-areas
+        ".grid-template-areas-custom": {
+          "grid-template-areas": `
+            "one one one one"
+            "two two three three"
+            "four four four four"
+          `,
+        },
+        ".grid-area-one": {
+          "grid-area": "one",
+        },
+        ".grid-area-two": {
+          "grid-area": "two",
+        },
+        ".grid-area-three": {
+          "grid-area": "three",
+        },
+        ".grid-area-four": {
+          "grid-area": "four",
         },
       };
 

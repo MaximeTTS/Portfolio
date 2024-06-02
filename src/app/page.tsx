@@ -2,6 +2,7 @@ import About from "@/components/about";
 import Avantage from "@/components/avantage";
 import Contact from "@/components/contact";
 import Hero from "@/components/hero";
+import MyProjects from "@/components/myProjects";
 import MyService from "@/components/myService";
 
 export default function Home() {
@@ -11,6 +12,7 @@ export default function Home() {
       <About />
       <MyService />
       <Avantage />
+      <MyProjects />
       <Contact />
     </main>
   );
