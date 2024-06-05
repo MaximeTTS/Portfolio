@@ -14,7 +14,7 @@ export default function Booki() {
         text2="HTML | CSS"
         span3="Durée"
         text3="30h"
-        src="/images/myProject/booki/booki.jpg"
+        src="/images/myProject/booki/bookii.jpg"
         alt="Project Booki"
         descriptionTitle="Contexte du Projet"
         descriptionText="Booki est mon premier projet de développement web, réalisé lors de ma formation chez OpenClassrooms. 
@@ -29,8 +29,8 @@ export default function Booki() {
           "Respecter la structure des fichiers à savoir un dossier images, HTML et CSS ",
         ]}
         images={[
-          { src: "/images/myProject/booki/booki_home.png", alt: "Image 1" },
-          { src: "/images/myProject/booki/booki_end.png", alt: "Image 2" },
+          { src: "/images/myProject/booki/booki_home.png", alt: "Acceuil booki" },
+          { src: "/images/myProject/booki/booki_end.png", alt: "booki" },
         ]}
         gitHubUrl="https://github.com/MaximeTTS/booki-projet"
         webSiteUrl="https://booki.example.com"

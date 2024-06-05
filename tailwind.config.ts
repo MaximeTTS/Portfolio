@@ -75,6 +75,9 @@ const config: Config = {
         ".grid-area-four": {
           "grid-area": "four",
         },
+        ".blur-extra-sm": {
+          filter: "blur(1px)",
+        },
       };
 
       addUtilities(newUtilities, {

@@ -28,8 +28,8 @@ export default function Booki() {
           "Garantir que toutes les pages et fonctionnalités soient entièrement responsive et fonctionnelles. ",
         ]}
         images={[
-          { src: "/images/myProject/sophie/sophie_home.png", alt: "Image 1" },
-          { src: "/images/myProject/sophie/sophie_end.png", alt: "Image 2" },
+          { src: "/images/myProject/sophie/sophie_home.png", alt: "Accueil sophie bluel" },
+          { src: "/images/myProject/sophie/sophie_end.png", alt: "sophie bluel" },
         ]}
         gitHubUrl="https://github.com/MaximeTTS/projet-sophie-bluel"
         webSiteUrl="https://booki.example.com"

@@ -30,8 +30,8 @@ export default function Booki() {
           "Assurer que l'application soit responsive sur tous les types et tailles d'écrans",
         ]}
         images={[
-          { src: "/images/myProject/kasa/kasa_home.png", alt: "Image 1" },
-          { src: "/images/myProject/kasa/kasa_end.png", alt: "Image 2" },
+          { src: "/images/myProject/kasa/kasa_home.png", alt: "Accueil kasa" },
+          { src: "/images/myProject/kasa/kasa_end.png", alt: "kasa" },
         ]}
         gitHubUrl="https://github.com/MaximeTTS/kasa"
         webSiteUrl="https://booki.example.com"

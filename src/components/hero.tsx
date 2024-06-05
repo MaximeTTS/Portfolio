@@ -1,8 +1,11 @@
+"use client";
+
 import { CheckCheck, Send } from "lucide-react";
 import React from "react";
 import Button from "./button";
 import Card from "./card";
 import Image from "next/image";
+import { TypeAnimation } from "react-type-animation";
 
 function Hero() {
   return (
@@ -10,7 +13,14 @@ function Hero() {
       <div className="flex">
         <div className="flex w-1/2 flex-col gap-8 p-5">
           <h1 className="text-4xl">
-            Portfolio <span className="block font-bold text-themeColor">Maxime Turquet</span>
+            Portfolio
+            <TypeAnimation
+              sequence={["Maxime Turquet", 4000, "Recherche Alternance", 4000]}
+              wrapper="span"
+              cursor={true}
+              repeat={Infinity}
+              className="block whitespace-nowrap font-bold text-themeColor"
+            />
           </h1>
           <p className="text-lg">
             <span className="font-bold">Développeur Front-End</span> à la recherche de nouvelles expériences.

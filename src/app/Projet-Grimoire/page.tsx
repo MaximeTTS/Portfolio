@@ -30,8 +30,8 @@ export default function Booki() {
           "Optimiser les images pour minimiser leur impact environnemental, conformément aux bonnes pratiques",
         ]}
         images={[
-          { src: "/images/myProject/grimoire/grimoire_home.png", alt: "Image 1" },
-          { src: "/images/myProject/grimoire/grimoire_end.png", alt: "Image 2" },
+          { src: "/images/myProject/grimoire/grimoire_home.png", alt: "Accueil mon vieux grimoire" },
+          { src: "/images/myProject/grimoire/grimoire_end.png", alt: "mon vieux grimoire" },
         ]}
         gitHubUrl="https://github.com/MaximeTTS/Mon-Vieux-Grimoire"
         webSiteUrl="https://booki.example.com"
