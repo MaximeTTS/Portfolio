@@ -1,4 +1,4 @@
-import ProjectTemplate from "@/components/projects/projectTemplate";
+import ProjectTemplate from "@/components/Projects/projectTemplate";
 import React from "react";
 
 export default function Booki() {
@@ -14,7 +14,7 @@ export default function Booki() {
         text2="HTML | CSS | JavaScript"
         span3="Durée"
         text3="30h"
-        src="/images/myProject/sophie/shopiebluel.jpg"
+        src="/images/myProject/sophie/sophiebluell.jpg"
         alt="Project Booki"
         descriptionTitle="Contexte du Projet"
         descriptionText="Vous travaillez comme développeur front-end pour l'agence ArchiWebos et avez été détaché en renfort 

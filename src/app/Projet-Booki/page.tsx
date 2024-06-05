@@ -1,4 +1,4 @@
-import ProjectTemplate from "@/components/projects/projectTemplate";
+import ProjectTemplate from "@/components/Projects/projectTemplate";
 import React from "react";
 
 export default function Booki() {

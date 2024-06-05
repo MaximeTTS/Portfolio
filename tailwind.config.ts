@@ -29,6 +29,7 @@ const config: Config = {
       },
       width: {
         "406px": "406px",
+        "1/3.5": "28.5714286%",
       },
       gridTemplateAreas: {
         "custom-layout": ["one one one one", "two two three three", "four four four four"],
@@ -38,6 +39,9 @@ const config: Config = {
         two: "two",
         three: "three",
         four: "four",
+      },
+      rotate: {
+        "-30": "-30deg",
       },
     },
   },

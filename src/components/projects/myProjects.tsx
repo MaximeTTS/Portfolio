@@ -1,6 +1,6 @@
 import React from "react";
-import Card from "./card";
-import Title from "./title";
+import Card from "../card";
+import Title from "../title";
 import CardProjects from "./cardProjects";
 
 function myProjects() {
@@ -29,7 +29,7 @@ function myProjects() {
         <div className="flex h-[300px] w-full items-center justify-center overflow-hidden rounded-xl border border-colorSilver bg-nightBlack p-4 grid-area-three">
           <CardProjects
             href="/Projet-Sophie-Bluel"
-            imgSrc="/images/myProject/sophie/shopiee.jpg"
+            imgSrc="/images/myProject/sophie/sophieblu.jpg"
             imgAlt="Project Sophie Bluel"
             subtitle1="Projet"
             subtitle2="Sophie Bluel"

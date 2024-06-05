@@ -1,6 +1,6 @@
 import React from "react";
-import Card from "./card";
-import Title from "./title";
+import Card from "../card";
+import Title from "../title";
 import CardService from "./cardService";
 import { MdOutlineRocketLaunch } from "react-icons/md";
 import { FaLaptopCode } from "react-icons/fa6";
@@ -11,11 +11,7 @@ function myService() {
     <div>
       <Card>
         <Title textNoColor="Mes" textColor="Services" />
-        <p className="mb-3">
-          Transformez vos idées en expériences interactives et captivantes. <br />
-          De la conception de sites web réactifs à la création d&apos;interfaces utilisateur intuitives <br /> je vous aide à donner vie à
-          vos projets numériques avec élégance et efficacité.
-        </p>
+        <p className="mb-3">Je transforme vos idées en des expériences interactives et captivantes.</p>
         <section className="max-h-406px grid grid-cols-2 items-center gap-5">
           <CardService
             title="Web Development"

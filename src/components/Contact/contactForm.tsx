@@ -2,7 +2,6 @@
 import React, { useState } from "react";
 import { useFormik } from "formik";
 import * as Yup from "yup";
-import Button from "./button";
 
 const ContactForm: React.FC = () => {
   const [hasSubmitted, setHasSubmitted] = useState(false);

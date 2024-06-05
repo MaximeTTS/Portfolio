@@ -2,10 +2,10 @@
 import React, { useState } from "react";
 import Card from "../card";
 import Image from "next/image";
+import Modal from "./modal";
 import TitleH1 from "./titleH1";
 import TextProject from "./textProject";
 import GitHubLink from "./githubLink";
-import Modal from "../modal";
 
 interface Props {
   title: string;

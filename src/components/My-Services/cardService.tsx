@@ -16,11 +16,11 @@ function CardService({ title, text, Icon, span, className }: Props) {
     >
       <div className="flex items-start justify-between">
         <span className="text-7xl font-bold text-transparent text-black-stroke">{span}</span>
-        <Icon className="text-3xl transition-colors duration-300 ease-in-out group-hover:text-themeColor" />
+        <Icon className="text-3xl transition-transform duration-500 ease-in-out group-hover:-rotate-30 group-hover:text-themeColor" />
       </div>
       <div className="flex flex-col gap-2">
-        <h3 className="text-2xl font-bold">{title}</h3>
-        <p>{text}</p>
+        <h3 className="text-xl font-bold">{title}</h3>
+        <p className="text-colorGray">{text}</p>
       </div>
     </div>
   );

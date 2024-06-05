@@ -9,9 +9,9 @@ interface Props {
 
 const ContactItem: React.FC<Props> = ({ Icon, text, iconClass }) => {
   return (
-    <div className="flex items-center gap-2">
+    <div className="flex items-center gap-3">
       <Icon className={iconClass} />
-      <p>{text}</p>
+      <p className="text-colorGray">{text}</p>
     </div>
   );
 };

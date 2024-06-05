@@ -1,16 +1,11 @@
-import React from "react";
-import Card from "./card";
-import Title from "./title";
+import Card from "../card";
+import Title from "../title";
 import AvantageIcon from "./avantageIcon";
 
 function avantage() {
   return (
     <Card>
       <Title textNoColor="Mes" textColor="Compétences" />
-      <p>
-        Pour donner vie à vos idées, mes compétences en développement front-end me permettent <br /> de développer des interfaces
-        utilisateur réactives, performantes et esthétiquement remarquables.
-      </p>
       <div className="my-5 flex justify-center">
         <div className="grid grid-cols-5 gap-x-16 gap-y-6">
           <AvantageIcon src="/css.svg" alt="CSS Icon" width={60} height={60} text="CSS" />

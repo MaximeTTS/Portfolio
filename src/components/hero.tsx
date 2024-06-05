@@ -12,7 +12,7 @@ function Hero() {
     <Card>
       <div className="flex">
         <div className="flex w-1/2 flex-col gap-8 p-5">
-          <h1 className="text-4xl">
+          <h1 className="text-3xl">
             Portfolio
             <TypeAnimation
               sequence={["Maxime Turquet", 4000, "Recherche Alternance", 4000]}
@@ -22,20 +22,21 @@ function Hero() {
               className="block whitespace-nowrap font-bold text-themeColor"
             />
           </h1>
-          <p className="text-lg">
-            <span className="font-bold">Développeur Front-End</span> à la recherche de nouvelles expériences.
+          <p>
+            <span className="font-bold">Développeur Front-End</span> à la recherche d&apos;un contrat d&apos;apprentissage pour de nouvelles
+            expériences.
           </p>
           <div className="flex gap-2">
             <CheckCheck className="text-themeColor" /> Disponible pour une Alternance
           </div>
-          <a href="#contact" className="scroll-smooth">
+          <a href="#contact">
             <Button>
               <Send className="mr-1 inline size-5" /> Me Contacter
             </Button>
           </a>
         </div>
         <div className="flex w-1/2">
-          <Image src="/maximeturquet.png" alt="Photo de profil Maxime Turquet" width={400} height={300} />
+          <Image src="/maxim.png" alt="Photo de profil Maxime Turquet" width={500} height={400} />
         </div>
       </div>
     </Card>
