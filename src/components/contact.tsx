@@ -10,7 +10,7 @@ import GoogleMap from "./map";
 
 function contact() {
   return (
-    <Card>
+    <Card id="contact">
       <Title textNoColor="Me" textColor="Contacter" />
       <p className="mb-8">
         N&apos;hésitez pas à me contacter en utilisant ce formulaire, par email ou par téléphone. <br />

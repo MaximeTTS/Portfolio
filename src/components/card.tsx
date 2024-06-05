@@ -1,11 +1,15 @@
 import React, { ReactNode } from "react";
 
-interface Props {
+interface Props extends React.HTMLAttributes<HTMLDivElement> {
   children: ReactNode;
 }
 
-function card({ children }: Props) {
-  return <div className="flex flex-col gap-4 rounded-3xl bg-nightBlack p-8">{children}</div>;
+function Card({ children, ...props }: Props) {
+  return (
+    <div {...props} className="flex flex-col gap-4 rounded-3xl bg-nightBlack p-8">
+      {children}
+    </div>
+  );
 }
 
-export default card;
+export default Card;

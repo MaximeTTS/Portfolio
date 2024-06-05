@@ -22,7 +22,7 @@ function CardProjects({ href, imgSrc, imgAlt, subtitle1, subtitle2 }: Props) {
           <span className="transform text-3xl font-bold text-white opacity-0 transition-all duration-500 ease-in-out group-hover:translate-y-2 group-hover:scale-110 group-hover:opacity-100">
             {subtitle1}
           </span>
-          <span className="mt-2 transform text-3xl font-bold text-themeColor opacity-0 transition-all duration-500 ease-in-out group-hover:translate-y-2 group-hover:scale-110 group-hover:opacity-100">
+          <span className="transform text-3xl font-bold text-themeColor opacity-0 transition-all duration-500 ease-in-out group-hover:translate-y-2 group-hover:scale-110 group-hover:opacity-100">
             {subtitle2}
           </span>
         </div>

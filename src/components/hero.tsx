@@ -28,9 +28,11 @@ function Hero() {
           <div className="flex gap-2">
             <CheckCheck className="text-themeColor" /> Disponible pour une Alternance
           </div>
-          <Button>
-            <Send className="mr-1 inline size-5" /> Me Contacter
-          </Button>
+          <a href="#contact" className="scroll-smooth">
+            <Button>
+              <Send className="mr-1 inline size-5" /> Me Contacter
+            </Button>
+          </a>
         </div>
         <div className="flex w-1/2">
           <Image src="/maximeturquet.png" alt="Photo de profil Maxime Turquet" width={400} height={300} />
