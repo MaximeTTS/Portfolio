@@ -102,15 +102,17 @@ function ProjectTemplate({
       />
       <div className="mt-4 grid grid-cols-2 gap-5">
         {images.map((image, index) => (
-          <div key={index} className="relative h-[300px] w-full cursor-pointer" onClick={() => openModal(index)}>
-            <Image src={image.src} alt={image.alt} layout="fill" className="rounded-xl object-cover" />
+          <div key={index} className="group relative h-[300px] w-full cursor-pointer" onClick={() => openModal(index)}>
+            <div className="icon-3d transform-20 relative h-full w-full">
+              <Image src={image.src} alt={image.alt} layout="fill" className="rounded-xl object-cover" />
+            </div>
           </div>
         ))}
       </div>
 
       {isModalOpen && (
         <Modal isOpen={isModalOpen} onClose={closeModal} onPrev={showPrevImage} onNext={showNextImage}>
-          <Image src={images[currentIndex].src} alt={images[currentIndex].alt} width={800} height={600} className="rounded-lg" />
+          <Image src={images[currentIndex].src} alt={images[currentIndex].alt} width={800} height={600} className="rounded-xl" />
         </Modal>
       )}
       <div className="mt-4">

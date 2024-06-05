@@ -37,4 +37,9 @@ body {
 
 .group:hover .icon-3d {
   transform: translateZ(50px);
+  transform: translateZ(20px);
+}
+
+.custom-list-disc li::marker {
+  color: #707070;
 }
