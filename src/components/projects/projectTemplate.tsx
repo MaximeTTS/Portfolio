@@ -103,7 +103,7 @@ function ProjectTemplate({
       <div className="mt-4 grid grid-cols-2 gap-5">
         {images.map((image, index) => (
           <div key={index} className="group relative h-[300px] w-full cursor-pointer" onClick={() => openModal(index)}>
-            <div className="icon-3d transform-20 relative h-full w-full">
+            <div className="icon-3d relative h-full w-full">
               <Image src={image.src} alt={image.alt} layout="fill" className="rounded-xl object-cover" />
             </div>
           </div>
