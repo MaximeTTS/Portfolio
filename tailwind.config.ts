@@ -82,6 +82,12 @@ const config: Config = {
         ".blur-extra-sm": {
           filter: "blur(1px)",
         },
+        ".transform-20": {
+          transform: "translateZ(20px)",
+        },
+        ".transform-50": {
+          transform: "translateZ(50px)",
+        },
       };
 
       addUtilities(newUtilities, {
