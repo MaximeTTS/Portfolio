@@ -7,7 +7,7 @@ function myQualifications() {
   return (
     <Card>
       <Title textNoColor="Mon" textColor="Parcours" />
-      <div className="mt-4 space-y-8">
+      <div className="mb-5 mt-4 space-y-8">
         <CardQualifications
           institution="OpenClassrooms"
           date="2023-2024"

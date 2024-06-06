@@ -1,3 +1,4 @@
+// tailwind.config.js
 import { Config } from "tailwindcss";
 import plugin from "tailwindcss/plugin";
 

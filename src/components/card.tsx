@@ -6,7 +6,7 @@ interface Props extends React.HTMLAttributes<HTMLDivElement> {
 
 function Card({ children, ...props }: Props) {
   return (
-    <div {...props} className="flex flex-col gap-4 rounded-3xl bg-nightBlack p-8">
+    <div {...props} className="relative flex flex-col gap-4 rounded-3xl bg-nightBlack p-8">
       {children}
     </div>
   );

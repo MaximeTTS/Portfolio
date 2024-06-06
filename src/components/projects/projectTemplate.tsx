@@ -6,6 +6,7 @@ import Modal from "./modal";
 import TitleH1 from "./titleH1";
 import TextProject from "./textProject";
 import GitHubLink from "./githubLink";
+import Lines from "../animationBg";
 
 interface Props {
   title: string;
@@ -72,6 +73,7 @@ function ProjectTemplate({
 
   return (
     <Card>
+      <Lines hideMiddleLine />
       <TitleH1 text1={title} text2={title2} span=" | " />
       <div className="mt-5 flex h-[400px] w-full items-center justify-center">
         <div className="relative h-full w-full max-w-4xl">
