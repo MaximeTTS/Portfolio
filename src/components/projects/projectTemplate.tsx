@@ -7,6 +7,8 @@ import TitleH1 from "./titleH1";
 import TextProject from "./textProject";
 import GitHubLink from "./githubLink";
 import Lines from "../animationBg";
+import BtnReturn from "./btnReturn";
+import { IoIosArrowRoundBack } from "react-icons/io";
 
 interface Props {
   title: string;
@@ -74,6 +76,7 @@ function ProjectTemplate({
   return (
     <Card>
       <Lines hideMiddleLine />
+      <BtnReturn Icon={IoIosArrowRoundBack} />
       <TitleH1 text1={title} text2={title2} span=" | " />
       <div className="mt-5 flex h-[400px] w-full items-center justify-center">
         <div className="relative h-full w-full max-w-4xl">

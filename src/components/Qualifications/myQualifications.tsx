@@ -23,7 +23,7 @@ function myQualifications() {
         <CardQualifications
           institution="Ensitech"
           date="2020-2022"
-          degree="BTS SIO SISR"
+          degree="BTS SIO (SISR)"
           description="Deux années en services informatiques aux organisations <br /> option solutions d'infrastructure, systèmes et réseaux."
         />
       </div>

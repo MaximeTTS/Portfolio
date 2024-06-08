@@ -12,7 +12,7 @@ function myService() {
       <Card>
         <Title textNoColor="Mes" textColor="Services" />
         <p className="mb-3">Je transforme vos idées en des expériences interactives et captivantes.</p>
-        <section className="max-h-406px grid grid-cols-2 items-center gap-5">
+        <section className="max-h-406px grid grid-cols-1 items-center gap-5 sm:grid-cols-2">
           <CardService
             title="Web Development"
             text="Je développe des sites web performants et sur mesure pour répondre à vos besoins."
@@ -30,7 +30,7 @@ function myService() {
             text="Je conçois des interfaces et expériences utilisateur intuitives."
             Icon={MdPhonelink}
             span="03"
-            className="col-span-2 w-406px place-self-center"
+            className="col-span-1 w-406px place-self-center sm:col-span-2"
           />
         </section>
       </Card>

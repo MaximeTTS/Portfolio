@@ -12,7 +12,7 @@ interface Props {
 function CardService({ title, text, Icon, span, className }: Props) {
   return (
     <div
-      className={`group flex flex-col gap-4 rounded-2xl border-greyBlack200 border p-8 w-406px transition duration-300 ease-in-out ${className}`}
+      className={`group flex flex-col gap-4 rounded-2xl border-greyBlack200 border p-8 w-auto transition duration-300 ease-in-out ${className}`}
     >
       <div className="flex items-start justify-between">
         <span className="text-7xl font-bold text-transparent text-black-stroke">{span}</span>
