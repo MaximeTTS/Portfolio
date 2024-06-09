@@ -8,7 +8,7 @@ interface Props {
 
 function TitleH1({ text1, text2, span }: Props) {
   return (
-    <h1 className="mt-4 text-3xl font-bold">
+    <h1 className="text-2xl font-bold sm:mt-4 sm:text-3xl">
       {text1} <span className="text-themeColor">{span}</span> {text2}
     </h1>
   );

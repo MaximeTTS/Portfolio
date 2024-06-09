@@ -90,13 +90,15 @@ const ContactForm: React.FC = () => {
           <div className="pt-1 text-platinum">{formik.errors.message}</div>
         ) : null}
       </div>
-      <button
-        type="submit"
-        disabled={formik.isSubmitting}
-        className="w-fit cursor-pointer rounded-3xl bg-themeColor px-5 py-4 font-bold text-white transition-all hover:shadow-customHover"
-      >
-        {formik.isSubmitting ? "Envoi en cours..." : "Send Message"}
-      </button>
+      <div className="flex justify-center sm:justify-start">
+        <button
+          type="submit"
+          disabled={formik.isSubmitting}
+          className="w-fit cursor-pointer rounded-3xl bg-themeColor px-4 py-3 text-sm font-bold text-white transition-all hover:shadow-customHover sm:px-5 sm:py-4 sm:text-base"
+        >
+          {formik.isSubmitting ? "Envoi en cours..." : "Send Message"}
+        </button>
+      </div>
       {formik.status?.error && <div className="mt-3 text-red-500">{formik.status.error}</div>}
       {formik.status?.success && <div className="mt-3 text-green-500">{formik.status.success}</div>}
     </form>

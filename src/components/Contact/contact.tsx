@@ -12,8 +12,8 @@ function contact() {
   return (
     <Card id="contact">
       <Title textNoColor="Me" textColor="Contacter" />
-      <p className="mb-8">N&apos;hésitez pas à me contacter via ce formulaire ou par email.</p>
-      <div className="mb-5 grid grid-cols-2">
+      <p className="mb-3 sm:mb-8">N&apos;hésitez pas à me contacter via ce formulaire ou par email.</p>
+      <div className="mb-5 grid sm:grid-cols-2">
         <div>
           <ContactIcon text="MaximeTTS" Icon={FaDiscord} span="Discord" />
           <ContactIcon text="maxime.samus@gmail.com" Icon={TfiEmail} span="E-mail" />

@@ -83,14 +83,14 @@ function ProjectTemplate({
           <Image src={src} alt={alt} layout="fill" className="rounded-xl object-cover" />
         </div>
       </div>
-      <div className="mb-2 mt-4 flex justify-between text-white">
+      <div className="mb-2 mt-4 text-white sm:flex sm:justify-between">
         <div>
           <span className="block pb-1 font-bold">{span}</span>
-          <p className="text-colorSilver">{text}</p>
+          <p className="mb-3 text-colorSilver">{text}</p>
         </div>
         <div>
           <span className="block pb-1 font-bold">{span2}</span>
-          <p className="text-colorSilver">{text2}</p>
+          <p className="mb-3 text-colorSilver">{text2}</p>
         </div>
         <div>
           <span className="block pb-1 font-bold">{span3}</span>
@@ -105,7 +105,7 @@ function ProjectTemplate({
         title3={title3}
         points={descriptionPoints}
       />
-      <div className="mt-4 grid grid-cols-2 gap-5">
+      <div className="mt-4 grid grid-cols-1 gap-5 sm:grid-cols-2 sm:gap-5">
         {images.map((image, index) => (
           <div key={index} className="group relative h-[300px] w-full cursor-pointer" onClick={() => openModal(index)}>
             <div className="icon-3d relative h-full w-full">

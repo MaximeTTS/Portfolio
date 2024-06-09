@@ -26,7 +26,7 @@ const GoogleMap: React.FC = () => {
     };
   }, []);
 
-  return <div ref={mapRef} className="h-96 w-full rounded-xl"></div>;
+  return <div ref={mapRef} className="h-64 w-full rounded-xl sm:h-96"></div>;
 };
 
 export default GoogleMap;

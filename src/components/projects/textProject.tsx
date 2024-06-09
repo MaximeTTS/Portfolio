@@ -19,7 +19,9 @@ function TextProject({ title, title2, title3, description, description2, points 
       <h3 className="mt-6 text-lg font-bold text-themeColor">{title3}</h3>
       <ul className="custom-list-disc mb-3 mt-2 list-inside list-disc">
         {points.map((point, index) => (
-          <li key={index}>{point}</li>
+          <li key={index} className="mb-4 sm:mb-2">
+            {point}
+          </li>
         ))}
       </ul>
     </div>
