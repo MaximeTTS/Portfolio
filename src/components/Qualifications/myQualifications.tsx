@@ -11,7 +11,7 @@ function myQualifications() {
         <CardQualifications
           institution="OpenClassrooms"
           date="2023-2024"
-          degree="développeut Web"
+          degree="Développeur Web"
           description="Formation de développeur Web équivalent Bac +2 <br /> chez OpenClassrooms."
         />
         <CardQualifications

@@ -121,7 +121,7 @@ function ProjectTemplate({
         </Modal>
       )}
       <div className="mt-4">
-        <GitHubLink url={gitHubUrl} url2={webSiteUrl} />
+        <GitHubLink url={gitHubUrl} />
       </div>
     </Card>
   );

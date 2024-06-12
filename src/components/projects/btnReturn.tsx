@@ -1,6 +1,5 @@
 import React from "react";
 import { IconType } from "react-icons";
-import { IoIosArrowRoundBack } from "react-icons/io";
 
 interface Props {
   Icon: IconType;
