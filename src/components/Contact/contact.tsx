@@ -4,9 +4,9 @@ import { TfiEmail } from "react-icons/tfi";
 import Card from "../card";
 import Title from "../title";
 import ContactForm from "./contactForm";
-import GoogleMap from "./map";
 import ContactIcon from "./contactIcon";
 import { FaDiscord } from "react-icons/fa";
+import OpenLayersMap from "./map";
 
 function contact() {
   return (
@@ -22,7 +22,7 @@ function contact() {
         <ContactForm />
       </div>
       <div className="flex justify-center rounded-xl bg-greyBlack p-3">
-        <GoogleMap />
+        <OpenLayersMap />
       </div>
     </Card>
   );
