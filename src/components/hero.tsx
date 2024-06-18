@@ -36,7 +36,7 @@ function Hero() {
           </a>
         </div>
         <div className="hidden w-full p-5 sm:flex sm:w-1/2">
-          <Image src="/maxim.png" alt="Photo de profil Maxime Turquet" width={800} height={300} />
+          <Image src="/maximeProfil.png" alt="Photo de profil Maxime Turquet" width={800} height={300} />
         </div>
       </div>
     </Card>
