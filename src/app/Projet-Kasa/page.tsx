@@ -34,7 +34,8 @@ export default function Booki() {
           { src: "/images/myProject/kasa/kasa_end.png", alt: "kasa" },
         ]}
         gitHubUrl="https://github.com/MaximeTTS/kasa"
-        webSiteUrl="https://booki.example.com"
+        figmaUrl="https://www.figma.com/design/2BZEoBhyxt5IwZgRn0wGsL/Kasa_FR"
+        webSiteUrl="https://kasa-42r5y04uo-maximettss-projects.vercel.app/"
       />
     </main>
   );

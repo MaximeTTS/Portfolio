@@ -33,7 +33,8 @@ export default function Booki() {
           { src: "/images/myProject/booki/booki_end.png", alt: "booki" },
         ]}
         gitHubUrl="https://github.com/MaximeTTS/booki-projet"
-        webSiteUrl="https://booki.example.com"
+        figmaUrl="https://www.figma.com/design/r9YJyUkpVdrxzBBKGH7reY/Maquettes-Booki-(desktop%2C-mobile%2C-tablette)"
+        webSiteUrl="https://maximetts.github.io/booki-projet/"
       />
     </main>
   );

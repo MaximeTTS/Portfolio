@@ -29,7 +29,8 @@ interface Props {
   descriptionPoints: string[];
   images: { src: string; alt: string }[];
   gitHubUrl: string;
-  webSiteUrl: string;
+  webSiteUrl?: string;
+  figmaUrl: string;
 }
 
 function ProjectTemplate({
@@ -52,6 +53,7 @@ function ProjectTemplate({
   images,
   gitHubUrl,
   webSiteUrl,
+  figmaUrl,
 }: Props) {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -121,7 +123,7 @@ function ProjectTemplate({
         </Modal>
       )}
       <div className="mt-4">
-        <GitHubLink url={gitHubUrl} />
+        <GitHubLink url={gitHubUrl} url2={figmaUrl} url3={webSiteUrl} />
       </div>
     </Card>
   );

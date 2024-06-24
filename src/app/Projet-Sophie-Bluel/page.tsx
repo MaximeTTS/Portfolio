@@ -32,7 +32,7 @@ export default function Booki() {
           { src: "/images/myProject/sophie/sophie_end.png", alt: "sophie bluel" },
         ]}
         gitHubUrl="https://github.com/MaximeTTS/projet-sophie-bluel"
-        webSiteUrl="https://booki.example.com"
+        figmaUrl="https://www.figma.com/design/kfKHknHySoTibZfdolGAX6/Sophie-Bluel---Desktop"
       />
     </main>
   );

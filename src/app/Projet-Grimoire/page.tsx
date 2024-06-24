@@ -34,7 +34,7 @@ export default function Booki() {
           { src: "/images/myProject/grimoire/grimoire_end.png", alt: "mon vieux grimoire" },
         ]}
         gitHubUrl="https://github.com/MaximeTTS/Mon-Vieux-Grimoire"
-        webSiteUrl="https://booki.example.com"
+        figmaUrl="https://www.figma.com/design/Snidyc45xi6qchoOPabMA9/Maquette-Mon-Vieux-Grimoir"
       />
     </main>
   );
