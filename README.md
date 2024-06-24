@@ -1,36 +1,89 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Portfolio Maxime Turquet
 
-## Getting Started
+## Projet de Développeur Front-End
 
-First, run the development server:
+## Contexte
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Salut ! moi c'est Maxime Turquet je suis pour l'instant développeur front-end et voici mon portfolio qui met en avant mes compétences et mes projets réalisés. 
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Ce site a été développé dans le but de démontrer mes capacités techniques, mes connaissances des outils modernes et mon aptitude à apprendre de nouveaux langages rapidement.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+lien : https://maxime-turquet.vercel.app/
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+![screenshot](public/readme.png)
 
-## Learn More
+## Objectif
 
-To learn more about Next.js, take a look at the following resources:
+Créer un portfolio professionnel en utilisant des technologies modernes et non enseignées dans la formation suivie, à savoir Next.js, TypeScript et Tailwind CSS. Le but est de prouver la capacité d'apprentissage et d'adaptation à de nouveaux outils et frameworks.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Cahier des charges
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- **Présentation du profil** : Inclure les formations suivies et les compétences acquises.
+- **Présentation de projets** : Afficher au moins 2 projets avec des descriptions détaillées, les défis rencontrés, les solutions apportées, les compétences développées et des liens vers le code source.
+- **Hébergement** : Utiliser une plateforme comme Vercel pour déployer le site.
+- **Responsivité** : Assurer une bonne expérience utilisateur sur mobile et tablette.
+- **Interdictions** : Ne pas utiliser de CMS ou de site builder no-code (à l'exception de WordPress avec du code personnalisé).
 
-## Deploy on Vercel
+## Description du site
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Architecture et Technologies Utilisées
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Le site est construit avec Next.js pour la génération de pages statiques et dynamiques, TypeScript pour un typage sécurisé et robuste, et Tailwind CSS pour une gestion rapide et efficace du design et du style.
+
+## Technos
+
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=nextjs,ts,tailwind,github,vscode,vercel" />
+  </a>
+</p>
+
+Utilisation de `Next.js` pour la structure du site.<br>
+Utilisation de `TypeScript` pour le typage statique.<br>
+Utilisation de `Tailwind CSS` pour le style et la mise en page.<br>
+Utilisation de `GitHub` pour le versionning et `Vercel` pour le déploiement.<br>
+
+### Hébergement sur Vercel
+
+Vercel est une plateforme d'hébergement spécialisée pour les sites web statiques et les applications front-end. Optimisée pour des frameworks modernes comme Next.js, elle offre une expérience de déploiement simplifiée. Le site de Maxime est hébergé sur Vercel, permettant des déploiements rapides directement depuis le dépôt GitHub.
+
+Pour mettre en ligne le site :
+1. Créer un compte Vercel.
+2. Se connecter à son compte GitHub.
+3. Sélectionner le projet à déployer.
+
+## Installation
+
+### Prérequis
+
+Assurez-vous d'avoir [Node.js](https://nodejs.org/) et [npm](https://www.npmjs.com/) installés sur votre machine.
+
+### Démarrer le Projet Next.js
+
+Ce projet a été initialisé avec [Next.js](https://nextjs.org/), offrant une structure de base prête à l'emploi pour démarrer rapidement le développement.
+
+### Scripts Disponibles
+
+Dans le répertoire du projet, vous pouvez exécuter les commandes suivantes :
+
+#### `npm run dev`
+
+Lance l'application en mode développement.\
+Ouvrez [http://localhost:3000](http://localhost:3000) pour voir l'application dans votre navigateur.
+
+La page se rechargera automatiquement lors de modifications.\
+Vous pouvez également voir les éventuelles erreurs dans la console.
+
+#### `npm run build`
+
+Construit l'application pour la production dans le dossier `build`.\
+Il compile correctement Next.js en mode production et optimise la construction pour de meilleures performances.
+
+#### `npm start`
+
+Démarre le serveur en mode production après avoir construit l'application.\
+Ouvrez [http://localhost:3000](http://localhost:3000) pour voir l'application dans votre navigateur.
+
+### Conclusion
+
+En suivant ce guide, vous pourrez configurer et lancer rapidement le portfolio de Maxime Turquet. L'utilisation des technologies modernes et des meilleures pratiques de développement garantit le succès de ce projet ambitieux. Bonne programmation !
