@@ -17,7 +17,7 @@ function about() {
 
       <div className="mt-4 text-white">
         <div className="grid grid-cols-1 gap-3">
-          <ContactItem Icon={MdMarkEmailRead} text="maxime.s.turquet@gmail.com" iconClass="text-themeColor" />
+          <ContactItem Icon={MdMarkEmailRead} text="maxime.samus@gmail.com" iconClass="text-themeColor" />
           <ContactItem Icon={FaGithub} text="github.com/MaximeTTS" iconClass="text-themeColor" />
           <ContactItem Icon={FaDiscord} text="maximetts" iconClass="text-themeColor" />
         </div>
